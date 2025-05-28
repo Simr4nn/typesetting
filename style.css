@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+/* === Typography & Text Styling === */
+body {
+  font-size: 0.625rem; /* 10px */
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  color: #111;
+}
+
+/* Center the main heading */
+h1 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Slight letter-spacing for subheadings */
+h2 {
+  letter-spacing: 0.5px;
+}
+
+/* Indent first paragraph in section */
+section p:first-of-type {
+  text-indent: 1.25rem;
+}
+
+/* Add spacing above second h2 */
+section p + h2 {
+  margin-top: 2rem;
+}
+/* === Link Styling === */
+a:link,
+a:visited,
+a:focus,
+a:hover {
+  color: #600000; /* matches the top/bottom bar color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: none;
+}
+/* === List Styling === */
+ul, ol {
+  line-height: 1.6;
+  margin-left: 2rem;
+}
+
+ul li {
+  list-style-type: disc; /* or square/circle if preferred */
+  margin-bottom: 0.25rem;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+}
+/* === Navigation Menu Styling === */
+aside {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+aside nav a {
+  display: block;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #600000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #600000;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+aside nav a:hover {
+  background-color: #f5e6e6;
+}
+/* === External Link Icon Styling === */
+a img {
+  margin-left: 0.25rem;
+  vertical-align: middle;
+  height: 0.75rem;
+}
+
+
